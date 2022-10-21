@@ -338,7 +338,7 @@ const App = (props) => {
           ))}
 
           <br />
-              created by Anmol
+
           {moves.slice(6, 12).map((moveStr) => (
             <button
               disabled={movement.motion}
